@@ -1,4 +1,4 @@
-<img align="right" height="260px" width="260px" alt="GIF" src="https://raw.githubusercontent.com/port3000/port3000/master//assets/dance.gif" />
+<img align="right" height="300px" width="300px" alt="GIF" src="https://raw.githubusercontent.com/port3000/port3000/master//assets/dance.gif" />
 
 #### _How have you ended up here?_
 
@@ -11,6 +11,7 @@
 # I'm Harry by the way
 
 <br/>
+
 <a href="https://www.linkedin.com/in/kcatstack/" target="_blank">
   <img align="left" alt="Harry Cao | Linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
@@ -27,17 +28,15 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=harrycaogithub)
 
-<br />
+<br/>
 
-- Currently working at [<img style="vertical-align:middle" height="30px" width="30px" src="https://img.utdstc.com/icons/viki-tv-android.png:225">](https://viki.com)
+- Currently working at [<img align="center" height="30px" width="30px" src="https://img.utdstc.com/icons/viki-tv-android.png:225">](https://viki.com)
 
 - Mostly DevOps stuffs 👨‍💻
 
-- Ask me anything [here](https://github.com/port3000/port3000/issues) 💬
-
+- Ask me anything [here](https://github.com/port3000/port3000/issues/new) 💬
 
 <br />
-
 
 **Language and Tools**
 
@@ -51,15 +50,9 @@
 [![Harry's github stats](https://github-readme-stats.vercel.app/api?username=port3000&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)](https://github.com/anuraghazra/github-readme-stats)
 
 <a href="https://github.com/port3000/VideoEditor">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=port3000&repo=VideoEditor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
 </a>
 
 <a href="https://github.com/port3000/KindleClone">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=port3000&repo=KindleClone&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" />
 </a>
-
-
-
-
