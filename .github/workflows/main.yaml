@@ -13,14 +13,6 @@ jobs:
       run: |
         echo "Today is $(date '+%A, %Y %b %d')" > README
         echo >> README
-        echo >> README
-        curl -X GET "https://zenquotes.io/api/today" | jq ".[0].q" >> README
-        echo "- $(curl -X GET https://zenquotes.io/api/today | jq ".[0].a" | tr -d '\"')" >> README
-        echo >> README
-        echo >> README
-        cal -hy $(date +%Y) >> README
-        echo >> README
-        echo >> README
         progress=""
         for i in {0..52}
         do
@@ -33,6 +25,13 @@ jobs:
           fi
         done
         echo "Year progress: $progress" >> README
+        echo >> README
+        echo >> README
+        curl -X GET "https://zenquotes.io/api/today" | jq ".[0].q" >> README
+        echo "- $(curl -X GET https://zenquotes.io/api/today | jq ".[0].a" | tr -d '\"')" >> README
+        echo >> README
+        echo >> README
+        cal -hy $(date +%Y) >> README
     - uses: EndBug/add-and-commit@v9
       with:
         author_name: Harry Cao
