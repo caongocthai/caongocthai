@@ -11,9 +11,10 @@ jobs:
       uses: actions/checkout@v2
     - name: Edit README
       run: |
-        date > README
+        echo "Today is $(date '+%A, %Y %b %d')" > README
         echo >> README
-        cal -hy 2022 >> README
+        echo >> README
+        cal -hy $(date +%Y) >> README
     - uses: EndBug/add-and-commit@v9
       with:
         author_name: Harry Cao
