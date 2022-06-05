@@ -1,6 +1,7 @@
-on:
-  schedule:
-    - cron: '1 0 * * *'
+# on:
+#   schedule:
+#     - cron: '1 0 * * *'
+on: [push]
 
 jobs:
   readme:
@@ -18,6 +19,20 @@ jobs:
         echo >> README
         echo >> README
         cal -hy $(date +%Y) >> README
+        echo >> README
+        echo >> README
+        progress=""
+        for i in {0..52}
+        do
+          if [ "$i" -lt $(date +%U) ]; then
+            progress+="-"
+          elif [ "$i" -eq $(date +%U) ]; then
+            progress+="_"
+          else
+            progress+="."
+          fi
+        done
+        echo "Year progress: $progress" >> README
     - uses: EndBug/add-and-commit@v9
       with:
         author_name: Harry Cao
