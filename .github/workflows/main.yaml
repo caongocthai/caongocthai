@@ -27,7 +27,7 @@ jobs:
         echo >> README
         echo >> README
         curl -X GET "https://zenquotes.io/api/today" | jq ".[0].q" >> README
-        echo "- $(curl -X GET https://zenquotes.io/api/today | jq ".[0].a" | tr -d '\"')" >> README
+        echo " - $(curl -X GET https://zenquotes.io/api/today | jq ".[0].a" | tr -d '\"')" >> README
         echo >> README
         echo >> README
         cal -hy $(date +%Y) >> README
