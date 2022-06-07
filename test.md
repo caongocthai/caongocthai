@@ -1,7 +1,7 @@
 # Today is Tuesday, 2022 Jun 07
 
 
-## Year progress: -----------------------_.............................
+### Year progress: -----------------------_.............................
 
 
 > "To do great work one must be very idle as well as very industrious." - Samuel Butler
